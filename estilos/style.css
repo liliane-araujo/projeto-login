@@ -37,6 +37,13 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    /*animaçao de transição*/
+    transition: width .3s, height .3s; 
+    
+    transition-timing-function: ease;
+    /*suavizar a mudança de tamanho do container*/
+
 }
 
 section#login > div#imagem {
